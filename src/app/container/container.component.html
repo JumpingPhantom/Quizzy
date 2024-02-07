@@ -1,5 +1,9 @@
 <div class="container">
-  <h1>Quiz #{{ number }}</h1>
+  <span>
+    <h1>Question {{ number }}</h1>
+    <p>of {{ total }}</p>
+  </span>
+
   <p>{{ question }}?</p>
 
   <ng-content></ng-content>

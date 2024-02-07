@@ -1,0 +1,42 @@
+.answer-group {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 1rem;
+  margin: 0 auto;
+  min-width: fit-content;
+  margin-top: 200px;
+}
+
+.btn-answer {
+  background-color: #ffffff;
+  font-size: xx-large;
+  border: none;
+  padding: 1rem;
+  transition: width ease-in-out 300ms;
+}
+
+.btn-answer.true {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  background-color: #caffff;
+  width: 50%;
+}
+
+.btn-answer.true:hover {
+  width: 150%;
+  background-color: #a2ffff;
+}
+
+.btn-answer.false {
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background-color: #ffcaca;
+  width: 50%;
+  
+}
+
+.btn-answer.false:hover {
+  width: 150%;
+  background-color: #ff9292;
+}

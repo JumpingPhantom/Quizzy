@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
 })
 export class ContainerComponent {
   number: Number = 999;
-  question: String = 'Lorem ipsum dolor sit amet, consectetur';
+  total: Number = 999;
+  question: String = '';
 }
