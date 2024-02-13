@@ -1,4 +1,10 @@
 import { Component } from '@angular/core';
+import {
+  MAX_QUESTIONS_SIZE,
+  CATEGORIES,
+  QUESTIONS_DIFFICULTY,
+  QUESTION_TYPE,
+} from '../app.constants';
 
 @Component({
   standalone: true,
@@ -7,7 +13,6 @@ import { Component } from '@angular/core';
   styleUrl: './container.component.css',
 })
 export class ContainerComponent {
-  number: Number = 999;
-  total: Number = 999;
-  question: String = '';
+  question_index: number = 0;
+  amount: number = MAX_QUESTIONS_SIZE;
 }
